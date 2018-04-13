@@ -1,0 +1,39 @@
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav"  [ngClass]="getHeaderStyle()">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" routerLink="/home">Chaitanya kumar</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/skill" routerLinkActive="active">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/projects" routerLinkActive="active">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contact</a>
+          </li>
+          <li class="nav-item social-buttons">
+            <a class="nav-link btn1" href="https://github.com/ChaitanyakumarNayudu" target="_blank">
+              <i class="fa fa-github"  style="background-color: orangered;"></i>
+            </a>
+          </li>
+          <li class="nav-item social-buttons">
+            <a class="nav-link btn2" href="https://www.linkedin.com/in/chaitanyakumar-nayudu-24ab50143/" target="_blank">
+              <i class="fa fa-linkedin"  style="background-color: rgb(0, 119, 255);"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <router-outlet></router-outlet>
+
+ 

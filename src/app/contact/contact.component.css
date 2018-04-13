@@ -1,0 +1,71 @@
+section#contact {
+    padding-top: 100px;
+    background-color: #212529;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center; }
+    section#contact .section-heading {
+      color: #fff; }
+    section#contact .form-group {
+      margin-bottom: 25px; }
+      section#contact .form-group label {
+          color: aliceblue;
+      }
+      section#contact .form-group input,
+      section#contact .form-group textarea {
+        padding: 20px; }
+      section#contact .form-group input.form-control {
+        height: auto; }
+      section#contact .form-group textarea.form-control {
+        height: 248px; }
+    section#contact .form-control:focus {
+      border-color: #fed136;
+      box-shadow: none; }
+    section#contact ::-webkit-input-placeholder {
+      font-weight: 700;
+      color: #ced4da;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    section#contact :-moz-placeholder {
+      font-weight: 700;
+      color: #ced4da;
+      /* Firefox 18- */
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    section#contact ::-moz-placeholder {
+      font-weight: 700;
+      color: #ced4da;
+      /* Firefox 19+ */
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    section#contact :-ms-input-placeholder {
+      font-weight: 700;
+      color: #ced4da;
+      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      .slideInRight {
+        -webkit-animation-name: slideInRight;
+        animation-name: slideInRight;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+        @-webkit-keyframes slideInRight {
+        0% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        visibility: visible;
+        }
+        100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        }
+        }
+        @keyframes slideInRight {
+        0% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+        visibility: visible;
+        }
+        100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+        }
+        } 
